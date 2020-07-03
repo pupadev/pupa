@@ -1,0 +1,35 @@
+body {
+    background-color:#000000;
+    text-align: center;
+    columns: #fff;;
+    padding-top:10em;
+  }
+  .whoami{
+    display: inline-block;
+  }
+  .wrap{
+    display: inline-block;
+  }  
+  .folder{
+    display: inline-block;
+  }
+  pre{
+
+    display: inline-block;
+  }
+  .ascii{
+    font-size: 15px;
+  }
+  .shell{
+    font-size: 17px;
+  }
+  * { color:#fff; text-decoration: none;}
+  @media screen and (max-width: 768px) {
+    .ascii{
+      font-size: 11px;
+    }
+
+    .shell{
+      font-size: 14px;
+    }
+}
