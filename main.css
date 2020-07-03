@@ -1,35 +1,50 @@
 body {
-    background-color:#000000;
+    background-color: #000000;
     text-align: center;
-    columns: #fff;;
-    padding-top:10em;
-  }
-  .whoami{
+    columns: #fff;
+    padding-top: 10em;
+}
+.whoami {
     display: inline-block;
-  }
-  .wrap{
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    color: red;
+}
+.wrap {
     display: inline-block;
-  }  
-  .folder{
+}
+.folder {
     display: inline-block;
-  }
-  pre{
-
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    color: blue;
+}
+.myspecialtext {
+    font-family: "Courier Prime", monospace;
+}
+pre {
     display: inline-block;
-  }
-  .ascii{
+}
+.ascii {
     font-size: 15px;
-  }
-  .shell{
+}
+.shell {
     font-size: 17px;
-  }
-  * { color:#fff; text-decoration: none;}
-  @media screen and (max-width: 768px) {
-    .ascii{
-      font-size: 11px;
+}
+* {
+    color: #fff;
+    text-decoration: none;
+}
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media screen and (max-width: 768px) {
+    .ascii {
+        font-size: 11px;
     }
 
-    .shell{
-      font-size: 14px;
+    .shell {
+        font-size: 14px;
     }
 }
