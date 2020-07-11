@@ -24,12 +24,14 @@ body {
 }
 pre {
     display: inline-block;
+    font-family: "Courier Prime", monospace;
 }
 .ascii {
     font-size: 15px;
 }
 .shell {
     font-size: 17px;
+    font-family: "Courier Prime", monospace;
 }
 * {
     color: #fff;
