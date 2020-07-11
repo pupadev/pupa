@@ -12,6 +12,7 @@ body {
 }
 .wrap {
     display: inline-block;
+    font-family: "Courier Prime", monospace;
 }
 .folder {
     display: inline-block;
@@ -22,9 +23,14 @@ body {
 .myspecialtext {
     font-family: "Courier Prime", monospace;
 }
+.userinfo{
+	font-family: "Courier Prime", monospace;
+}
+.folder{
+        font-family: "Courier Prime", monospace;
+}
 pre {
     display: inline-block;
-    font-family: "Courier Prime", monospace;
 }
 .ascii {
     font-size: 15px;
